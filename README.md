@@ -19,9 +19,14 @@
 
 ## Features
 
-- Present a missing data imputation approach that utilizes the day dimension of traffic data.
-- Build a tensor completion task through truncated nuclear norm minimization.
-- Consider univariate autoregressive process along the temporal dimension to characterize the time series trends.
+- **Highlights**
+  - Present a missing data imputation approach that utilizes the day dimension of traffic data.
+  - Build a tensor completion task through truncated nuclear norm minimization.
+  - Consider univariate autoregressive process along the temporal dimension to characterize the time series trends.
+
+- **New features in the repo**
+  - Use conjugate gradient to solve the linear equations, intead of least squares in the [transdim](https://github.com/xinychen/transdim) repo.
+  - Include both `CPU` (with `import numpy as np`) and `GPU` (with `import cupy as np`) implementation.
 
 <br>
 
